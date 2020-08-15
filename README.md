@@ -20,7 +20,7 @@
 # Índice
 - [Sobre](#sobre)
 - [Tecnologias Utilizadas](#documentacao)
-- [Database](#database)
+- [Pré-Requisitos](#database)
 - [Back-end](#back-end)
 - [Front-end](#front-end)
 - [Mobile](#mobile)
@@ -39,22 +39,116 @@ O <strong>Ecoleta</strong> é uma aplicação Web e Mobile para ajudar pessoas a
 Essa aplicação foi construída na trilha <strong>Booster</strong> da <strong>Next Level Week</strong> distribuída pela [Rocketseat](https://rocketseat.com.br/). A ideia de criar uma aplicação voltada ao meio ambiente surgiu da coincidência da data do curso e a data da <strong>semana do meio ambiente</strong>
 
 <a id="documentacao"></a>
-## :books: Tecnologias Utilizadas
+# :books: Tecnologias Utilizadas
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+- [Expo](https://expo.io/)
+- [Express](https://expressjs.com/pt-br/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+Extras:
+
+- Main Libs
+  - [Express](https://expressjs.com/pt-br/)
+  - [KnexJS](http://knexjs.org/)
+  - [SQLite3](https://www.sqlite.org/index.html)
+  - [Axios](https://github.com/axios/axios)
+  - [Leaflet](https://leafletjs.com/)
+  - [Expo Google Fonts](https://github.com/expo/google-fonts)
+  - [Picker Select](https://github.com/lawnstarter/react-native-picker-select)
+  - [Multer](https://github.com/expressjs/multer)
+  - [Celebrate](https://github.com/arb/celebrate)
+  
+- Estilos
+
+  - [EditorConfig](https://editorconfig.org/)
+  - [ESLint](https://eslint.org/)
+  - [Prettier](https://prettier.io/)
 
 <a id="database"></a>
-# :bookmark: Database
+### :bookmark: Pré-Requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+
+<b>[Git](https://git-scm.com)</b>
+
+<b>[Node.js](https://nodejs.org/en/)</b>
+
+E também será preciso um editor, eu indico o <b>[VSCode](https://code.visualstudio.com/)</b>
+
 
 <a id="back-end"></a>
-# :gear: Back-end
+### :gear: Back-end
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/cicerocruz/Ecoleta_V1.0/
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd ecoleta
+
+# Vá para a pasta Backend
+$ cd backend
+
+# Instale as dependências
+$ npm install ou yarn add
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev:server ou yarn dev
+
+# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+```
 
 <a id="front-end"></a>
-# :computer: Front-end
+### :computer: Front-end
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/cicerocruz/Ecoleta_V1.0/
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd ecoleta
+
+# Vá para a pasta da aplicação FrontEnd
+$ cd frontend
+
+# Instale as dependências
+$ npm install ou yarn add
+
+# Execute a aplicação
+$ npm start ou yarn start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
 
 <a id="mobile"></a>
-# :iphone: Mobile
+### :iphone: Mobile
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/cicerocruz/Ecoleta_V1.0/
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd ...
+
+# Vá para a pasta da aplicação Mobile
+$ cd mobile
+
+# Instale as dependências
+$ npm install ou yarn
+
+# Execute a aplicação
+$ expo start
+
+# A aplicação será aberta no navegador basta acessar via QR Code pelo celular
+```
 
 <a id="como-contribuir"></a>
-## :recycle: Como contribuir
+# :recycle: Como contribuir
 
 - Faça um Fork desse repositório,
 - Crie uma branch com a sua feature: `git checkout -b my-feature`
@@ -62,17 +156,17 @@ Essa aplicação foi construída na trilha <strong>Booster</strong> da <strong>N
 - Push a sua branch: `git push origin my-feature`
 
 <a id="quem-ministrou"></a>
-## :mortar_board: Quem ministrou?
+# :mortar_board: Quem ministrou?
 
 As aulas foram ministradas pelo mestre **[Diego Fernandes](https://github.com/diego3g)** nas aulas da **Next Level Week**.
 
 <a id="licença"></a>
-## :memo: License
+# :memo: License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 <a id="contatos"></a>
-### :iphone: Contatos
+# :iphone: Contatos
 
 Me acompanhe nas minhas redes sociais.
 
