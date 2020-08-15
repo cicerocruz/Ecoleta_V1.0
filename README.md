@@ -146,6 +146,12 @@ $ expo start
 
 # A aplicação será aberta no navegador basta acessar via QR Code pelo celular
 ```
+### 💅 Design
+
+[Figma File](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)
+
+![alt Mockup frontend](.github/mockup.png)
+
 
 <a id="como-contribuir"></a>
 # :recycle: Como contribuir
